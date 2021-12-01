@@ -16,6 +16,7 @@ Git Commands
 | `git add [file-name.txt]` | Add a file to the staging area |
 | `git add -A` | Add all new and changed files to the staging area |
 | `git commit -m "[commit message]"` | Commit changes |
+| `git commit --amend -m "[new commit message]" ` | Modify commit message |
 | `git rm -r [file-name.txt]` | Remove a file (or folder) |
 | `git checkout .` | redo unstaged files(exclude untracked files) |
 | `git clean -fdn`| clean untricked files (-n for preview, use param -fd to do remove) |
