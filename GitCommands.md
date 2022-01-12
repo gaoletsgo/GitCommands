@@ -21,6 +21,11 @@ Git Commands
 | `git checkout .` | redo unstaged files(exclude untracked files) |
 | `git clean -fdn`| clean untricked files (-n for preview, use param -fd to do remove) |
 
+### Edit Commits
+| Command | Description |
+| ------- | ----------- |
+| `git cherry-pick [CommitId]` | Pick commit as a commit of current branch |
+
 ### Branching & Merging
 
 | Command | Description |
