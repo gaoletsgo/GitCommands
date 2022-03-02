@@ -46,6 +46,8 @@ Git Commands
 | `git merge [source branch] [target branch]` | Merge a branch into a target branch |
 | `git stash` | Stash changes in a dirty working directory |
 | `git stash clear` | Remove all stashed entries |
+| `git stash list` | List stashed changes |
+| `git stash pop --index [num]` | Pop index x stashed changes to current branch | 
 | `git remote update origin -prune` |  Update the local list of remote branches |
 | `git switch - ` | undo any changes you make and return to your previous branch. |
 
