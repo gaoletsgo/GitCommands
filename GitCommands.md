@@ -50,7 +50,7 @@ Git Commands
 | `git stash pop --index [num]` | Pop index x stashed changes to current branch | 
 | `git remote update origin -prune` |  Update the local list of remote branches |
 | `git switch - ` | undo any changes you make and return to your previous branch. |
-
+| `git reset HEAD~1`| uncommit last local commit |
 ### Sharing & Updating Projects
 
 | Command | Description |
